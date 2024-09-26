@@ -38,7 +38,7 @@ class Cilveks:
         else:
             teksts = self.dzimums
         print("Sveiki, mani sauc {}. Man ir {} gadu, es esmu {}.".format(self.vards, self.vecums, teksts))
-        return
+        return "Sveiki, mani sauc {}. Man ir {} gadu, es esmu {}.".format(self.vards, self.vecums, teksts)
 
     def __del__(self):   #Kas papildu jāizdara pirms objektu iznīcina, izmantojot del
         print("Visu labu!")
